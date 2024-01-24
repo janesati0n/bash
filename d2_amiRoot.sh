@@ -7,6 +7,6 @@ if [ "$(id -u)" -eq 0 ]
         echo "You are running this script as a Root."
 
         else
-        echo "You are not running this script as a Root. Please, use sudo or su."
+        echo "You are not running this script as a Root. Please, use sudo."
 
 fi
