@@ -1,0 +1,42 @@
+rc	900101/9930
+	530101123
+
+wrong	901212ABCD
+
+############################################
+
+op	AB123456
+
+wrong	78ACX123
+
+############################################
+
+iban	SK89 7500 0000 0000 1234 5671
+	SK8302000000000001230123
+
+wrong	0123 0123 0123 0123 0123 0123
+	SK110000111122221111333
+	SK82 1111 1111 1111 1111 1111 1111
+
+############################################
+
+ecv	KE123BC
+	SB 230 AB
+	VT159AA
+	BJ-110AP
+
+wrong	K3ABC13
+	VT-AKOPYSK
+
+############################################
+
+email	meno.priezvisko@gmail.com
+	menopriezvisko@sub.domena.sk
+	menopriezvisko1991@domena.sk
+
+wrong	meno.priezvisko.domena.sk
+	meno.@domena.sk
+	meno..priezvisko@domena.sk
+	meno#priezvisko@domena.sk
+	meno priezvisko@domena.sk
+	.menopriezvisko@domena.sk
