@@ -1,0 +1,15 @@
+#!/bin/bash
+# Jednoducha kalkulacka na scitanie/odcitanie/kratenie/delenie
+
+read -p "Please enter the first number: " number1
+read -p "Please enter the second number: " number2
+
+let Sum=$number1+$number2
+let Dif=$number1-$number2
+let Prod=$number1*$number2
+let Quo=$number1/$number2
+
+echo "Sum is $Sum"
+echo "Difference is $Dif"
+echo "Product is $Prod"
+echo "Quotient is $Quo"
